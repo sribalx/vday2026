@@ -126,8 +126,8 @@ export default function Home() {
             
             <div className="w-full max-w-md aspect-video bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center overflow-hidden mb-8 relative">
               <img 
-                src="/us.JPG"
-                alt="Us" 
+                src="/ustgt.jpg"
+                alt="photo of us" 
                 className="w-full h-full object-cover"
               />
             </div>
