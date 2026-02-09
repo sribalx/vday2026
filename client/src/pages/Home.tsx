@@ -70,21 +70,18 @@ export default function Home() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
+      "wot",
+      "r u sure",
+      "think again",
+      "one last chance",
+      "wlao",
+      "y so mean",
+      "Be so forreal",
+      "bruh",
+      "how could u",
+      "y so stone hearted",
+      "last chance ah",
+      "it's so over </3",
     ];
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
@@ -167,10 +164,10 @@ export default function Home() {
             <PixelCard className="bg-white/90 backdrop-blur-sm">
               <div className="text-center mb-8">
                 <h1 className="font-pixel text-4xl md:text-6xl text-[#FF1493] mb-4 pixel-text-shadow animate-bounce">
-                  YAY!!!
+                  LEZGOOOOO
                 </h1>
                 <p className="font-doodle text-2xl text-gray-700">
-                  I knew you'd say yes! 💖
+                  Excited to spend the day with you 😊
                 </p>
                 
                 <div className="my-6 flex justify-center">
@@ -195,7 +192,7 @@ export default function Home() {
                       className="font-doodle text-lg border-4 border-black rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,0.1)] focus:ring-0 focus:border-[#FF1493] min-h-[120px] bg-white resize-none"
                     />
                     <p className="font-doodle text-sm text-gray-500 italic">
-                      Very late planning, no promises big soz
+                      on a real i have no backend for this so please just tell me
                     </p>
                   </div>
                   
@@ -217,7 +214,7 @@ export default function Home() {
                 </form>
               ) : (
                 <div className="text-center py-8 bg-green-50 border-2 border-green-200 border-dashed rounded-lg">
-                  <h3 className="font-pixel text-xl text-green-600 mb-2">Message Sent! 💌</h3>
+                  <h3 className="font-pixel text-xl text-green-600 mb-2">Message Sent!</h3>
                   <p className="font-doodle text-lg text-gray-600">
                     Your wish is my command (maybe). <br/>
                     See you on the 14th!
