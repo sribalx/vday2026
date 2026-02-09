@@ -233,7 +233,7 @@ export default function Home() {
                 }}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white/50 rounded-full text-xs font-pixel text-gray-500 hover:bg-white transition-colors"
               >
-                <Music className="w-4 h-4" /> Toggle Music
+                <Music className="w-4 h-4" /> 
               </button>
             </div>
           </div>
