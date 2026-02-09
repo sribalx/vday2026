@@ -128,7 +128,7 @@ export default function Home() {
               <img 
                 src="/ustgt.jpg"
                 alt="photo of us" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-bottom"
               />
             </div>
 
