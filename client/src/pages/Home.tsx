@@ -124,7 +124,7 @@ export default function Home() {
               Will you be my Valentine?
             </h1>
             
-            <div className="w-full max-w-3xl bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center overflow-hidden mb-8 relative h-[100px] md:h-[100px] lg:h-[180px]">
+            <div className="w-full max-w-md aspect-video bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center overflow-hidden mb-8 relative">
               <img 
                   src="/ustgt.jpg"
                   alt="photo of us" 
