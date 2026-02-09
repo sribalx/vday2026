@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 interface CatDecorationProps {
-  type: 1 | 2 | 3;
+  type: 1 | 2 | 3 | 4;
   className?: string;
 }
 
@@ -10,7 +10,7 @@ export function CatDecoration({ type, className }: CatDecorationProps) {
     1: "/images/penguin1.png",
     2: "/images/penguin3.jpg",
     3: "/images/penguin2.jpg",
-    4: "/images/penguin3.jpg"
+    4: "/images/penguin5.png"
   };
 
   return (
