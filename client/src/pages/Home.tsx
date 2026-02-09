@@ -124,7 +124,12 @@ export default function Home() {
               Will you be my Valentine?
             </h1>
             
-            <div className="w-full max-w-md aspect-video bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center overflow-hidden mb-8 relative"> <img src="/ustgt2.jpg" alt="Us" className="w-full h-full object-cover" /> </div>
+            <div className="w-full max-w-md aspect-video bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center overflow-hidden mb-8 relative"> 
+              <img 
+                src="/ustgt.jpg" 
+                alt="Us" 
+                className="w-full h-full object-cover" /> 
+              </div>
 
             <div className="flex flex-wrap items-center justify-center gap-4 w-full min-h-[100px]">
               <PixelButton
