@@ -7,8 +7,8 @@ interface CatDecorationProps {
 
 export function CatDecoration({ type, className }: CatDecorationProps) {
   const images = {
-    1: "/images/penguin3.jpg",
-    2: "/images/penguin1.png",
+    1: "/images/penguin1.png",
+    2: "/images/penguin3.jpg",
     3: "/images/penguin2.jpg",
     4: "/images/penguin3.jpg"
   };
