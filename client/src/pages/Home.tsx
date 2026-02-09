@@ -128,7 +128,8 @@ export default function Home() {
               <img 
                 src="/ustgt.jpg"
                 alt="photo of us" 
-                className="w-full h-full object-cover object-bottom"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: "center 70%" }}
               />
             </div>
 
