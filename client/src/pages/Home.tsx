@@ -95,9 +95,9 @@ export default function Home() {
     <div className="min-h-screen bg-[#FFF0F5] relative overflow-hidden flex flex-col items-center justify-center p-4">
       {/* Decorative Cats */}
       <CatDecoration type={1} className="top-10 left-10 animate-float hidden md:block" />
-      <CatDecoration type={2} className="bottom-10 right-10 animate-float-delayed hidden md:block" />
+      <CatDecoration type={2} className="bottom-10 right-10 animate-float hidden md:block" />
       <CatDecoration type={3} className="top-20 right-20 animate-wiggle hidden lg:block" />
-      <CatDecoration type={4} className="bottom-20 left-20 animate-wiggle hidden lg:block" />
+      <CatDecoration type={2} className="bottom-20 left-20 animate-wiggle hidden lg:block" />
 
       {/* Floating Hearts Background */}
       <div className="absolute inset-0 pointer-events-none opacity-20 overflow-hidden">
