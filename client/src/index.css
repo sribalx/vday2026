@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Press+Start+2P&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Pixel Art Palette - Pink & Cute */
+  --pixel-pink: 330 100% 70%;
+  --pixel-red: 350 100% 60%;
+  --pixel-cream: 330 100% 97%;
+  --pixel-dark: 330 20% 20%;
+  --pixel-shadow: 330 30% 50%;
+
+  --background: 330 100% 98%;
+  --foreground: 330 20% 20%;
+  
+  --primary: 340 90% 65%;
+  --primary-foreground: 0 0% 100%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 330 20% 20%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 330 20% 20%;
+  
+  --secondary: 330 50% 90%;
+  --secondary-foreground: 340 80% 40%;
+  
+  --muted: 330 30% 90%;
+  --muted-foreground: 330 10% 40%;
+  
+  --accent: 330 80% 80%;
+  --accent-foreground: 340 90% 30%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 330 30% 85%;
+  --input: 330 30% 90%;
+  --ring: 340 90% 65%;
+  
+  --font-pixel: 'Press Start 2P', cursive;
+  --font-doodle: 'Architects Daughter', cursive;
+  --font-retro: 'VT323', monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased overflow-x-hidden;
+    font-family: var(--font-doodle);
+    background-image: 
+      radial-gradient(circle at 10% 20%, rgba(255, 182, 193, 0.4) 0%, transparent 20%),
+      radial-gradient(circle at 90% 80%, rgba(255, 105, 180, 0.3) 0%, transparent 20%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-pixel);
+    @apply leading-normal;
+  }
+}
+
+@layer components {
+  /* Custom Pixel Border Utility */
+  .pixel-box {
+    box-shadow: 
+      -4px 0 0 0 black,
+      4px 0 0 0 black,
+      0 -4px 0 0 black,
+      0 4px 0 0 black;
+    margin: 4px;
+  }
+
+  .pixel-shadow {
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.2);
+  }
+  
+  .pixel-text-shadow {
+    text-shadow: 2px 2px 0px rgba(255, 182, 193, 1);
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 4s ease-in-out infinite 1.5s;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}
